@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Live Translator",
+  "description": "Real-time speech-to-speech translation using Gemini Live API. Select source and target languages for seamless communication.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

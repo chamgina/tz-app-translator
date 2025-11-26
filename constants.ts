@@ -1,0 +1,56 @@
+import { Language } from './types';
+
+// A curated list of languages supported by Gemini for speech/text.
+export const LANGUAGES: Language[] = [
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'sw', name: 'Swahili', flag: '🇹🇿' },
+  { code: 'es', name: 'Spanish', flag: '🇪🇸' },
+  { code: 'fr', name: 'French', flag: '🇫🇷' },
+  { code: 'de', name: 'German', flag: '🇩🇪' },
+  { code: 'zh', name: 'Chinese (Mandarin)', flag: '🇨🇳' },
+  { code: 'ja', name: 'Japanese', flag: '🇯🇵' },
+  { code: 'ko', name: 'Korean', flag: '🇰🇷' },
+  { code: 'pt', name: 'Portuguese', flag: '🇧🇷' },
+  { code: 'it', name: 'Italian', flag: '🇮🇹' },
+  { code: 'ru', name: 'Russian', flag: '🇷🇺' },
+  { code: 'hi', name: 'Hindi', flag: '🇮🇳' },
+  { code: 'ar', name: 'Arabic', flag: '🇸🇦' },
+  { code: 'bn', name: 'Bengali', flag: '🇧🇩' },
+  { code: 'tr', name: 'Turkish', flag: '🇹🇷' },
+  { code: 'vi', name: 'Vietnamese', flag: '🇻🇳' },
+  { code: 'th', name: 'Thai', flag: '🇹🇭' },
+  { code: 'nl', name: 'Dutch', flag: '🇳🇱' },
+  { code: 'el', name: 'Greek', flag: '🇬🇷' },
+  { code: 'he', name: 'Hebrew', flag: '🇮🇱' },
+  { code: 'id', name: 'Indonesian', flag: '🇮🇩' },
+  { code: 'ms', name: 'Malay', flag: '🇲🇾' },
+  { code: 'fa', name: 'Persian', flag: '🇮🇷' },
+  { code: 'pl', name: 'Polish', flag: '🇵🇱' },
+  { code: 'ro', name: 'Romanian', flag: '🇷🇴' },
+  { code: 'sv', name: 'Swedish', flag: '🇸🇪' },
+  { code: 'uk', name: 'Ukrainian', flag: '🇺🇦' },
+  { code: 'ur', name: 'Urdu', flag: '🇵🇰' },
+  { code: 'cs', name: 'Czech', flag: '🇨🇿' },
+  { code: 'da', name: 'Danish', flag: '🇩🇰' },
+  { code: 'fi', name: 'Finnish', flag: '🇫🇮' },
+  { code: 'hu', name: 'Hungarian', flag: '🇭🇺' },
+  { code: 'no', name: 'Norwegian', flag: '🇳🇴' },
+  { code: 'tl', name: 'Tagalog', flag: '🇵🇭' },
+  { code: 'af', name: 'Afrikaans', flag: '🇿🇦' },
+  { code: 'bg', name: 'Bulgarian', flag: '🇧🇬' },
+  { code: 'ca', name: 'Catalan', flag: '🇪🇸' },
+  { code: 'hr', name: 'Croatian', flag: '🇭🇷' },
+  { code: 'et', name: 'Estonian', flag: '🇪🇪' },
+  { code: 'gl', name: 'Galician', flag: '🇪🇸' },
+  { code: 'lv', name: 'Latvian', flag: '🇱🇻' },
+  { code: 'lt', name: 'Lithuanian', flag: '🇱🇹' },
+  { code: 'mk', name: 'Macedonian', flag: '🇲🇰' },
+  { code: 'sk', name: 'Slovak', flag: '🇸🇰' },
+  { code: 'sl', name: 'Slovenian', flag: '🇸🇮' },
+  { code: 'sr', name: 'Serbian', flag: '🇷🇸' },
+  { code: 'is', name: 'Icelandic', flag: '🇮🇸' }
+];
+
+export const SAMPLE_RATE_INPUT = 16000;
+export const SAMPLE_RATE_OUTPUT = 24000;
+export const GEMINI_MODEL = 'gemini-2.5-flash-native-audio-preview-09-2025';
